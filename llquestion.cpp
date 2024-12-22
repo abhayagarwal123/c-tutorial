@@ -185,6 +185,7 @@ int middles(node *&head)
     }
     return temp->data;
 }
+
 // detect a loop
 node *floydcycledetection(node *&head)
 {
